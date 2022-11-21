@@ -24,11 +24,11 @@
           </li>
           <li class="stats-likes-given linked-stat">
             <LinkTo @route="userActivity.likesGiven">
-              <UserStat @value={{this.model.likes_given}} @icon="heart" @label="user.summary.likes_given" />
+              <UserStat @value={{this.model.likes_given}} @icon="far-heart" @label="user.summary.likes_given" />
             </LinkTo>
           </li>
           <li class="stats-likes-received">
-            <UserStat @value={{this.model.likes_received}} @icon="heart" @label="user.summary.likes_received" />
+            <UserStat @value={{this.model.likes_received}} @icon="far-heart" @label="user.summary.likes_received" />
           </li>
           {{#if this.model.bookmark_count}}
             <li class="stats-bookmark-count linked-stat">
@@ -93,13 +93,13 @@
     <div class="top-section most-liked-section">
       <UserSummarySection @title="most_liked_by" @class="summary-user-list liked-by-section pull-left">
         <UserSummaryUsersList @none="no_likes" @users={{this.model.most_liked_by_users}} as |user|>
-          <UserSummaryUser @user={{user}} @icon="heart" @countClass="likes" />
+          <UserSummaryUser @user={{user}} @icon="far-heart" @countClass="likes" />
         </UserSummaryUsersList>
       </UserSummarySection>
 
       <UserSummarySection @title="most_liked_users" @class="summary-user-list liked-section pull-right">
         <UserSummaryUsersList @none="no_likes" @users={{this.model.most_liked_users}} as |user|>
-          <UserSummaryUser @user={{user}} @icon="heart" @countClass="likes" />
+          <UserSummaryUser @user={{user}} @icon="far-heart" @countClass="likes" />
         </UserSummaryUsersList>
       </UserSummarySection>
 
