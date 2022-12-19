@@ -109,30 +109,6 @@ a.url.license-url {
 }
 
 
-@font-face {
-    font-family: "Graphik-Regular";
-    src: url($Graphik-Regular);
-}
-
-@font-face {
-    font-family: "Graphik-Regular-subset";
-    src: url($Graphik-Regular-subset);
-}
-
-@font-face {
-    font-family: "Graphik-Medium";
-    src: url($Graphik-Medium);
-}
-
-@font-face {
-    font-family: "Graphik-Semibold";
-    src: url($Graphik-Semibold);
-}
-
-@font-face {
-    font-family: "Graphik-Bold";
-    src: url($Graphik-Bold);
-}
 
 
 li.admin-actions button {
@@ -883,13 +859,6 @@ tr {
     background: #2271fb;
 }
 
-.navigation-topics section#main {
-    background: url($ton-header-wave) no-repeat bottom;
-    background-size: cover;
-    height: 530px;
-    position: relative;
-    background-position: right top;
-}
 
 
 .navigation-topics section#main:before {
