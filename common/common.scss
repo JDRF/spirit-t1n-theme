@@ -54,15 +54,7 @@ input[type="color"]:focus,
 }
 
 
-body {
-    color: #000;
-    font-family: 'Graphik-Regular';
-    background: url($ton-watermark) no-repeat bottom;
-    background-size: 100%;
 
-    position: relative;
-    background-position: center center;
-}
 
 #main-outlet:before,
 #main-outlet:after {
