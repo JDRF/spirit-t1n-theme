@@ -220,6 +220,7 @@ export default Component.extend({
 
     const topic = this.topic;
     setTimeout(function(){
+      console.log("--krushna");
       $('.topic-area').find('.topic-post').find('.post-menu-area').find('.share').find('.d-icon-share').remove();
     $('.topic-area').find('.topic-post').find('.post-menu-area').find('.share').append("<div class='discourse-custom-upload'><img src=''/></div>");
     },1000);
