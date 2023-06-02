@@ -14,7 +14,7 @@
       @logout={{route-action "logout"}}
       @sidebarEnabled={{this.sidebarEnabled}}
       @toggleSidebar={{action "toggleSidebar"}} />
-       <div class="typeone_bradcrum_background"><div class="wrap"><div class="typenation_breadcrum"> <svg class="fa d-icon d-icon-chevron-left svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#chevron-left"></use></svg>< <a href="https://www.jdrf.org/"> Back to Forum Home </a> </div></div></div>
+       <div class="typeone_bradcrum_background discourse-breadcr-{{ this.router.currentRouteName }}"><div class="wrap"><div class="typenation_breadcrum"> <svg class="fa d-icon d-icon-chevron-left svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#chevron-left"></use></svg>< <a href="/"> Back to Forum Home </a> </div></div></div>
   {{/if}}
 
   <SoftwareUpdatePrompt />
