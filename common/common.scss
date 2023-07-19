@@ -55,6 +55,7 @@ input[type="color"]:focus,
 
 .custom-homepage-columns {
   margin: 2em 0 2em 0;
+
   .col {
     position: relative;
     border-radius: var(--mint-border-radius);
@@ -63,15 +64,19 @@ input[type="color"]:focus,
     border-top: 8px solid $tertiary;
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
       0 12px 90px 0 rgba(133, 255, 103, 0.1);
+
     .header-wrapper {
       background-color: transparent;
+
       a h2 {
         color: var(--primary);
       }
+
       .btn-primary {
         display: none;
       }
     }
+
     .btn-more {
       color: var(--secondary);
       background: var(--tertiary);
@@ -79,6 +84,7 @@ input[type="color"]:focus,
       border-radius: var(--mint-border-radius);
       text-transform: uppercase;
       border: 1px solid var(--tertiary);
+
       &:hover {
         color: var(--secondary);
         background: var(--tertiary-hover);
@@ -139,6 +145,7 @@ a {
   grid-gap: 2em;
   grid-template-columns: 32% 32% 32%;
   border-radius: var(--mint-border-radius);
+
   .category-box {
     width: 100%;
     margin: 0;
@@ -148,13 +155,16 @@ a {
     background: var(--secondary);
     border-radius: var(--mint-border-radius);
     box-shadow: 0px 2px 3px 0px rgba(2, 47, 57, 0.14);
+
     .category-box-inner {
       border: none;
       padding: 0;
+
       .category-details {
         padding: 2em;
       }
     }
+
     &:hover {
       box-shadow: 0px 40px 30px 0px rgba(2, 47, 57, 0.1);
       transform: translateY(-2px);
@@ -183,15 +193,18 @@ a {
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 2px solid var(--tertiary);
+
   .fa {
     color: var(--secondary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
     box-shadow: var(--mint-hover-shadow);
     transition: all 0.3s linear;
     border-radius: var(--mint-border-radius);
+
     .fa {
       color: var(--secondary);
     }
@@ -207,6 +220,7 @@ a {
     background: transparent;
     border-radius: none;
     border: none;
+
     &:hover {
       background: var(--tertiary);
       border-radius: 0;
@@ -224,6 +238,7 @@ a {
   svg {
     color: var(--tertiary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
@@ -233,6 +248,7 @@ a {
 .nav-pills li a {
   border: 1px solid transparent;
   border-radius: var(--mint-border-radius);
+
   &:hover {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
@@ -240,6 +256,7 @@ a {
     color: var(--tertiary);
     border: 1px dashed var(--tertiary);
   }
+
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
@@ -254,24 +271,26 @@ a {
   border-radius: var(--mint-border-radius);
   border: 1px solid var(--tertiary);
   color: var(--secondary);
+
   svg {
     color: var(--secondary);
+
     &:hover {
       color: var(--secondary);
     }
   }
 }
 
-.d-editor-button-bar
-  .select-kit.dropdown-select-box
-  .dropdown-select-box-header {
+.d-editor-button-bar .select-kit.dropdown-select-box .dropdown-select-box-header {
   background: transparent;
   color: var(--primary-medium);
   border: 1px solid transparent;
   border-radius: 0;
+
   svg {
     color: currentColor;
   }
+
   &:hover {
     color: var(--secondary);
     background: var(--tertiary-hover);
@@ -290,6 +309,7 @@ a {
   color: var(--secondary);
   background: var(--tertiary-hover);
   border-radius: 5px;
+
   .fa {
     color: var(--secondary);
   }
@@ -309,6 +329,7 @@ a {
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 1px solid var(--tertiary);
+
   .fa {
     color: var(--secondary);
   }
@@ -347,6 +368,7 @@ a:hover {
 
 .image-upload-controls .btn-default {
   border: 1px solid var(--secondary);
+
   .fa {
     color: var(--secondary);
   }
@@ -355,10 +377,11 @@ a:hover {
 .admin-controls,
 .email-template,
 .admin-container {
-  .nav-pills > li a.active {
+  .nav-pills>li a.active {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .btn-primary {
     border-radius: var(--mint-border-radius);
   }
@@ -382,6 +405,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .search-advanced-filters {
     border: 1px dashed var(--tertiary);
   }
@@ -397,8 +421,13 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .mint-component-extensions {
+
   .search-banner,
   .showcased-topic-list {
     display: block;
   }
+}
+
+#admin-plugin-chat div.channel-details div.channel-header {
+  background: transparent;
 }
