@@ -1,6 +1,8 @@
 @import "variables";
 @import "sidebar";
 
+/*New css code*/
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -95,11 +97,8 @@ a.url.license-url {
     color: #000;
 }
 
-
 #main-outlet-wrapper #main-outlet {
-
     border-radius: 8px;
-
 }
 .topic-list a {
     color: #00081a !important;
@@ -107,9 +106,6 @@ a.url.license-url {
     font-family: 'Graphik-Regular';
     font-size: 16px !important;
 }
-
-
-
 
 li.admin-actions button {
     color: #0055ff;
@@ -134,7 +130,7 @@ li.admin-actions button {
 .admin-contents.admin-customize.admin-customize-email-templates span,
 .admin-contents.admin-customize.admin-customize-email-templates input,
 .admin-contents.admin-customize.admin-customize-email-templates textarea,
-div#emoji-uploader input,
+div#emoji-uploader input
 {
 color: #000;
 }
