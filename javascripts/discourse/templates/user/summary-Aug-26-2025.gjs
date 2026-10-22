@@ -1,3 +1,12 @@
+// Converted from summary-Aug-26-2025.hbs for the Discourse
+// .hbs deprecation (id: discourse.hbs-extension).
+//
+// Dated backup copy of the user summary page. It was never loaded. Kept inert so
+// behaviour stays exactly the same.
+//
+// The original code is kept below, unchanged, for reference.
+/*
+===== Original templates/user/summary-Aug-26-2025.hbs =====
 <DSection @pageClass="user-summary" @tagName="">
   <div class="user-content">
     <PluginOutlet @name="above-user-summary-stats" @args={{hash model=this.model user=this.user}} />
@@ -167,3 +176,8 @@
     {{/if}}
   </div>
 </DSection>
+*/
+
+const SummaryAug262025 = <template></template>;
+
+export default SummaryAug262025;
