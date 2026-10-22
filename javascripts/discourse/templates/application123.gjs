@@ -1,3 +1,12 @@
+// Converted from application123.hbs for the Discourse
+// .hbs deprecation (id: discourse.hbs-extension).
+//
+// This file was never loaded (its name matches no route). It is kept inert so
+// behaviour stays exactly the same.
+//
+// The original code is kept below, unchanged, for reference.
+/*
+===== Original templates/application123.hbs =====
 <DiscourseRoot>
   <a href="#main-container" id="skip-link">{{i18n "skip_to_main_content"}}</a>
   <DDocument />
@@ -93,3 +102,8 @@
     <FooterNav />
   {{/if}}
 </DiscourseRoot>
+*/
+
+const Application123 = <template></template>;
+
+export default Application123;
